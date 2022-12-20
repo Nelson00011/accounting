@@ -21,6 +21,8 @@ def print_melon(name, price, seedless, flesh_color = {}, rind_color = {}, averag
         print(f"\n{fruit.upper()}")
         for category, value in value.items():
             print(f"{category}: {value}")
+    
+    #return inventory
 
 #call function 
 print(print_melon(melon_names, melon_prices, melon_seedlessness))
